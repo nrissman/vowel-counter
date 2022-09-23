@@ -79,13 +79,39 @@ button {
   border-radius: 3px;
   color:rgb(95, 97, 92);
   background-color:rgb(191, 203, 176);
+  cursor: pointer;
 }
 
 p.result {
   margin-top: 3.5rem;
   text-align: center;
-
   font-size: 2rem;
   font-weight: 600;
   color: rgb(95, 97, 92);
+}
+
+.reset {
+  margin: 0;
+  position:fixed;
+  text-align: center;
+  font-size: 13px;
+  width: 9%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color:rgb(95, 97, 92);
+  background-color:rgb(191, 203, 176);
+  
+}
+
+button:hover {
+  color: green;
+}
+
+.reset:hover {
+  color: green;
 }

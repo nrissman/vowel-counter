@@ -9,7 +9,7 @@ btn.addEventListener("click", countVowel)
 function countVowel () {
     let vowelCount = 0
     let wordVal = word.value.toLowerCase()
-    alert(wordVal)
+    // alert(wordVal)
 
     for (let i = 0; i < wordVal.length; i++){
         let letter = wordVal[i] 
@@ -18,5 +18,6 @@ function countVowel () {
         }
 
     }
-    result.innerHTML = `${word.value.toUpperCase()} has ${vowelCount}`
+    result.innerHTML = `${word.value.toUpperCase()} has ${vowelCount} vowels`    
+    
 }
